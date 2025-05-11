@@ -11,4 +11,4 @@ This workspace is managed using Dart Pub Workspaces to ensure consistent depende
 
 Currently, the workspace contains the following package:
 
-* **bloc_utility**:# project_space
+* **bloc_utility**

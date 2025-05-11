@@ -1,0 +1,9 @@
+name: project_space
+description: A starting point for Dart libraries or applications.
+publish_to: none
+
+environment:
+  sdk: ^3.7.2
+
+workspace:
+  - packages/bloc_utilities
