@@ -1,8 +1,8 @@
 name: bloc_utilities
 description: "A lightweight, modular collection of advanced BLoC utility widgets and extensions for Flutter."
 version: 0.0.1
-homepage: https://github.com/kenresoft/bloc_utilities
-repository: https://github.com/kenresoft/bloc_utilities
+homepage: https://github.com/kenresoft/project_space/tree/main/packages/bloc_utilities
+repository: https://github.com/kenresoft/project_space/tree/main/packages/bloc_utilities
 
 environment:
   sdk: ^3.7.2

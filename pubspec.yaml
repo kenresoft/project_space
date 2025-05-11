@@ -1,5 +1,5 @@
 name: project_space
-description: A starting point for Dart libraries or applications.
+description: A Dart workspace containing utility and extension packages.
 publish_to: none
 
 environment:
