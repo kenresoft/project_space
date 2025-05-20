@@ -7,3 +7,4 @@ environment:
 
 workspace:
   - packages/bloc_utilities
+  - packages/responsive_manager
