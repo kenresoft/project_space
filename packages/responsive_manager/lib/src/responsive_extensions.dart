@@ -27,6 +27,22 @@ extension ResponsiveNumExtension on num {
   double get sh => ResponsiveManager.globalInstance.screenSize.height * toDouble();
 }
 
+extension ResponsiveMinHeightExtension on num {
+  /// Convert to responsive height with a minimum value constraint
+  /// Example: 120.hMin(150) - will return at least 150 logical pixels
+  double hMin(double minHeight) {
+    final responsiveHeight = h;
+    return responsiveHeight > minHeight ? responsiveHeight : minHeight;
+  }
+
+  /// Alternative version that uses the existing .h extension
+  /// Example: 120.h(minHeight: 150)
+  double hWithMin({double minHeight = 0}) {
+    final responsiveHeight = h;
+    return responsiveHeight > minHeight ? responsiveHeight : minHeight;
+  }
+}
+
 /// Adds responsive sizing extensions to EdgeInsets
 extension ResponsiveEdgeInsetsExtension on EdgeInsets {
   /// Scale all edge insets by width factor
